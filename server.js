@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://lms-backend-a5xu.onrender.com',
+  origin:'https://lms-frontend-ogn75sx15-kedar-prasads-projects.vercel.app',
   credentials: true
 }));
 app.use(express.json());
