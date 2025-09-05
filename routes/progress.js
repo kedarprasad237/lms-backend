@@ -25,7 +25,7 @@ const updateProgressValidation = [
 // All progress routes require authentication
 router.use(auth);
 
-router.post('/update', updateProgressValidation, updateProgress);
+router.put('/update', updateProgressValidation, updateProgress);
 router.get('/', getProgress);
 router.get('/summary', getProgressSummary);
 
